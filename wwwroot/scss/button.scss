@@ -1,0 +1,16 @@
+﻿@mixin button-style($color, $radius: 5px) {
+    background-color: $color;
+    border-radius: $radius;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.primary-button {
+    @include button-style(#3498db);
+}
+
+.secondary-button {
+    @include button-style(#2ecc71, 10px);
+}
