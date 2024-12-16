@@ -1,0 +1,17 @@
+﻿.primary-button {
+  background-color: #3498db;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.secondary-button {
+  background-color: #690fdb;
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
